@@ -17,15 +17,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Fulcrum\\": "src"
-        },
-        "exclude-from-classmap": [
-            "/tests/"
-        ]
+            "Fulcrum\\Custom\\Taxonomy\\": "src/Custom/Taxonomy/"
+        }
     },
     "autoload-dev": {
         "psr-4": {
-            "Fulcrum\\Tests\\": "tests/"
+            "Fulcrum\\Tests\\Integration\\": "tests/integration/",
+            "Fulcrum\\Tests\\Unit\\": "tests/unit/"
         }
     },
     "require": {
